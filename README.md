@@ -1,1 +1,1 @@
-"# Korean-resourcepack" 
+"Korean-resourcepack" 
