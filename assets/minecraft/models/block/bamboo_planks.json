@@ -1,6 +1,22 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "minecraft:block/bamboo_planks"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_all",
+	"texture_size": [64, 64],
+	"textures": {
+		"all": "block/bamboo_planks"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "north"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "north"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "north"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "north"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "north"}
+			}
+		}
+	]
 }
